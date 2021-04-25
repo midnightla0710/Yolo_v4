@@ -3,7 +3,7 @@
 <安裝_方法一>參考官方文件
 1. [下載1](https://github.com/midnightla0710/Yolo_v4/blob/main/train.rar)
 2. [下載2](https://github.com/tzutalin/labelImg)
-3. [labelImg官方說明]
+3. labelImg官方說明
     ![image](https://github.com/midnightla0710/Yolo_v4/blob/main/Win%E6%88%96Win%2BAnaconda.png)
 5. 把要訓練的圖片放進[下載1](https://github.com/midnightla0710/Yolo_v4/blob/main/train.rar)底下的\VOCdevkit\VOC2021\JPEGImages
 6. 開啟labelImg 之後把Change Save Dir 改成[下載1](https://github.com/a13140120a/yolo_v4/blob/main/train.rar)底下的VOCdevkit\VOC2021\Annotations
