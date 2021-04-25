@@ -1,6 +1,6 @@
 # Yolo_v4
 
-## <安裝：方法一>參考官方文件
+## <安裝方法一>參考官方文件
   1. [請按此下載檔案1](https://github.com/midnightla0710/Yolo_v4/blob/main/train.rar)
   2. [請按此下載檔案2](https://github.com/tzutalin/labelImg)
   3. labelImg官方說明 ![image](https://github.com/midnightla0710/Yolo_v4/blob/main/Windows%E6%88%96Windows%2BAnaconda.png)
@@ -9,7 +9,7 @@
   6. 並且點擊Open dir 開啟 \JPEGImages
 
 
-## <安裝：方法二>使用EXE檔
+## <安裝方法二>使用EXE檔
   1. 下載[labelImg](https://github.com/midnightla0710/Yolo_v4/blob/main/windows_v1.8.1.rar)，[(官網載點)](https://tzutalin.github.io/labelImg/)
 
 
