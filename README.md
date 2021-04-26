@@ -5,7 +5,7 @@
   2. [請按此下載檔案2](https://github.com/tzutalin/labelImg)
   3. labelImg官方說明 ![image](https://github.com/midnightla0710/Yolo_v4/blob/main/Windows%E6%88%96Windows%2BAnaconda.png)
   4. 把要訓練的圖片放進[檔案1](https://github.com/midnightla0710/Yolo_v4/blob/main/train.rar)底下的\VOCdevkit\VOC2021\JPEGImages
-  5. 開啟labelImg 之後把Change Save Dir 改成[檔案1](https://github.com/a13140120a/yolo_v4/blob/main/train.rar)底下的VOCdevkit\VOC2021\Annotations
+  5. 開啟labelImg 之後把Change Save Dir 改成[檔案1](https://github.com/midnightla0710/Yolo_v4/blob/main/train.rar)底下的VOCdevkit\VOC2021\Annotations
   6. 並且點擊Open dir 開啟 \JPEGImages
 
 
