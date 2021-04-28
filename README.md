@@ -26,7 +26,7 @@
   3.  [colab訓練方法](https://github.com/midnightla0710/Yolo_v4/blob/main/yolov4_colab.ipynb)
 
 
-# [檔案1]解說
+# [檔案1]參數說明
 1. voc_label.py
     * classes = ["第一的類別","第二個類別"]
 2. obj.data:
