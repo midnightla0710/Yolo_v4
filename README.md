@@ -1,4 +1,4 @@
-# Yolo_v4資料前處理與Colab訓練模型
+# Yolo_v4資料前處理與部署Colab訓練模型
 
 ## <安裝方法一>參考官方文件
   1. [請按此下載檔案1](https://github.com/midnightla0710/Yolo_v4/blob/main/train.rar)
@@ -25,8 +25,6 @@
   2.  執行[檔案1]中的gen_train_val.py
   3.  [colab訓練方法](https://github.com/midnightla0710/Yolo_v4/blob/main/yolov4_colab.ipynb)
 
-## <使用colab訓練>
-  1.  執行[檔案1]中predit.py
 
 # [檔案1]解說
 1. voc_label.py
