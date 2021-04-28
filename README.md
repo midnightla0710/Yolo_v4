@@ -1,4 +1,4 @@
-# Yolo_v4
+# Yolo_v4資料前處理與Colab訓練模型
 
 ## <安裝方法一>參考官方文件
   1. [請按此下載檔案1](https://github.com/midnightla0710/Yolo_v4/blob/main/train.rar)
@@ -27,3 +27,30 @@
 
 ## <使用colab訓練>
   1.  執行[檔案1]中predit.py
+
+# [檔案1]解說
+1. voc_label.py
+    * classes = ["第一的類別","第二個類別"]
+2. obj.data:
+    * classes = 1  #類別數量
+    * train = 2021_train.txt  
+    * valid = 2021_val.txt
+    * names = obj.names  #標籤名稱
+    * backup = backup  #yolo會將訓練結果的權重存在這裡
+3. obj.names:
+    * 放標籤名稱  
+4. yolov4-tiny.conv.29 :
+    * 預訓練權重檔
+5. yolov4-tiny-myobj.cfg(config檔)需要修改如下:
+    * subdivisions = 16  #記憶體如果不足可以改成32或64
+    * max_batches = 2000乘以類別數量    #但最低不可以低於6000，所以一個類別的話要設定為6000
+    * steps = 4800,5400   #max_batches 的80%與90%
+    * classes=1  #辨識的類別數量，注意有兩個地方要改，分別是220行跟269行
+    * filters = 18  #改成(classes 的數量+5) 乘以3   
+##備註##  
+[convolutional]  
+size=1  
+stride=1  
+pad=1  
+filters=18   <-- 下面有一個activation=linear的才是要改的，原檔是212跟263行  
+activation=linear  
