@@ -10,10 +10,10 @@
 
 
 ## <安裝方法二>使用EXE檔
-  1. 下載[labelImg](https://github.com/midnightla0710/Yolo_v4/blob/main/windows_v1.8.1.rar)，[(官網載點)](https://tzutalin.github.io/labelImg/)
+  1. 下載[LabelImg](https://github.com/midnightla0710/Yolo_v4/blob/main/windows_v1.8.1.rar)，[(官網載點)](https://tzutalin.github.io/labelImg/)
 
 
-## <使用方式>
+## <LabelImg使用方式>
   1. 勾選左上選單的View底下的 Auto Save mode
   2. 可以開始拉框框標記了 (快捷鍵 W:拉框框， D:下一張， A:上一張)
     ![image](https://github.com/midnightla0710/Yolo_v4/blob/main/teach.PNG)
