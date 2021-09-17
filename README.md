@@ -1,4 +1,4 @@
-# Yolo_v4資料前處理與部署Colab訓練模型
+# YOLOv4模型與部署到Colab訓練
 
 ## <安裝方法一>參考官方文件
   1. [請按此下載檔案1](https://github.com/midnightla0710/Yolo_v4/blob/main/train.rar)
