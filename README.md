@@ -20,7 +20,7 @@
     每標記完一張圖Annotations 底下都會出現一個xml檔案  #檔名不要有中文
 
 
-## <使用colab訓練>
+## <使用Colab訓練>
   1.  使用colab訓練好處：避免Windows+Yolo_v4在呼叫本地端GPU時，可能產生的異常。
   2.  執行[檔案1]中的gen_train_val.py
   3.  [colab訓練方法](https://github.com/midnightla0710/Yolo_v4/blob/main/Yolov4_with_colab.ipynb)
